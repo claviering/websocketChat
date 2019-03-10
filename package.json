@@ -1,0 +1,16 @@
+{
+  "name": "websocketChat",
+  "version": "1.0.0",
+  "description": "利用 websocket 简单 1对1 聊天",
+  "main": "chatv1.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  }
+}

@@ -2,11 +2,12 @@
 
 利用 websocket 简单 1对1 聊天
 
-chatv1.js 版本要求
+版本要求 Client 端和 Server 端的 socket.io 版本要一致
 
-```json
-"express": "^4.15.2"
-"socket.io": "^1.7.3"
-```
+## 运行
 
-升级 `socket.io` 2.x 版本 Client 端和 Server 端都要升级
+npm run dev
+
+访问 http://127.0.0.1:9200/alice
+
+访问 http://127.0.0.1:9200/bob
